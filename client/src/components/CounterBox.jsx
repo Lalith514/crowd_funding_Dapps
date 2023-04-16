@@ -8,6 +8,7 @@ const CounterBox = ({ title, value }) => {
       </h4>
       <p className="font-epilogue font-semibold text-[16px] text-[#808191] bg-[#28282e] px-3 py-2 w-full rounded-b-[10px] text-center truncate">
         {title}
+        {/* nandu here */}
       </p>
     </div>
   );
