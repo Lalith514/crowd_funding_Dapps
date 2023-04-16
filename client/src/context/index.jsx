@@ -9,6 +9,8 @@ import { ethers } from "ethers";
 
 const StateContext = createContext();
 
+// index
+
 export const StateContextProvider = ({ children }) => {
   const { contract } = useContract(
     "0xDEff216166bF562E6Fea34c5D7fF343E59eAc74e"
