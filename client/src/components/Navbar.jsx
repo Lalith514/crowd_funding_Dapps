@@ -43,7 +43,7 @@ const Navbar = () => {
               await toast.success("Your account connect, Welcome!", {
                 style: {
                   background: "#1dc071", // #8c6dfd
-                  color: "white",
+                  color: "white", //white
                 },
               });
             }
